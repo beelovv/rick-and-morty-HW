@@ -1,11 +1,9 @@
 import { Rick } from "./components/Rick";
-import { EpisodeList } from "./components/presentational/EpisodeList";
+import { MainList } from "./components/presentational/MainList";
 
 function App() {
   return (
-    <>
-      <EpisodeList />
-    </>
+      <MainList/>
   );
 }
 

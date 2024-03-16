@@ -1,4 +1,3 @@
-import { EpisodeItem } from "./EpisodeItem";
 import { Collapse } from "./Collapse";
 import { CharacterList } from "./CharacterList";
 import { useEpisodes } from "../hooks/useEpisodes";
@@ -8,7 +7,6 @@ export const EpisodeList = () => {
   return (
     <div>
       {episodes.map((episode) => (
-        // <EpisodeItem key={episode.id} episode={episode} />
         <Collapse
           key={episode.id}
           className="episode"

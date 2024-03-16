@@ -12,6 +12,14 @@ body {
   color: #dde6ed;
 }
 
+.location {
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #526d82;
+  color: #dde6ed;
+}
+
 .characters-container {
   display: flex;
   flex-wrap: wrap;
